@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #292929;
+}
+
+.banner {
+
+  background-color: #77d1ec;
+  display: flex;
+}
+
+.imgbanner {
+  padding-left: 250px;
+  transform: scale(0.7);
+}
+
+.textbanner {
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  padding-top: 150px;
+  color: #292929;
+
+}
+
+.textbanner h2 {
+  line-height: 1px;
+  font-size: 40px;
+}
+
+.textbanner h1 {
+  line-height: 170px;
+  font-size: 150px;
+  font-weight: 900;
+}
+
+.textbanner p {
+  line-height: 1px;
+  padding-left: 20px;
+  padding-top: 0px;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.textbanner button {
+  margin-top: 90px;
+  margin-left: 150px;
+  background-color: #292929;
+  width: 300px;
+  height: 65px;
+  border: none;
+  box-shadow: 4px 5px 4px #2584a1;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 35px;
+  color: white
+}
+
+.projects h2 {
+  display: flex;
+  margin-bottom: 0px;
+  padding-left: 50px;
+  padding-top: 20px;
+  color: white;
+  font-size: 60px;
+}
+
+.projectCards {
+  transform: scale(0.8);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  
+}
+
+.projectCards h1 {
+  background-color: #1c1c1c;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 30px;
+}
+
+.card {
+  
+  border: 30px solid #1c1c1c;
+  border-radius: 30px;
+  margin: 15px;
+}
