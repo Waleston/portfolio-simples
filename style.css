@@ -14,11 +14,15 @@ body {
 
   background-color: #77d1ec;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .imgbanner {
   padding-left: 250px;
   transform: scale(0.9);
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .textbanner {
